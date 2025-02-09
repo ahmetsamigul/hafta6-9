@@ -47,6 +47,33 @@ html, body {
     transition: transform 0.1s;
 }
 
+button{
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 28px;
+    padding: 15px 35px;
+    user-select: none;
+    font-size: 16px;
+}
+
+button.filled{
+    background-color: goldenrod;
+    border: 2px solid black;
+    color: black;
+}
+
+button.outline{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    color: wheat;
+}
+
+button.ghost{
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: wheat;
+}
+
 .header-logo {
     border-radius: 50%;
     height: 65px;
@@ -60,7 +87,7 @@ html, body {
 
 .header-content-container span:nth-child(1){
     font-weight: bold;
-    color: goldenrod;
+    color: rgb(218, 165, 32);
     font-size: 25px;
 }
 
