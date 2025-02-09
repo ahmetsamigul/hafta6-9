@@ -15,7 +15,7 @@ html, body {
 }
 
 .header-table-cell {
-    background-color: white;
+    background-color: lightgray;
     display: table-cell;
     padding: 10px;
     width: 100%;
@@ -38,6 +38,7 @@ html, body {
 }
 
 .click-event:hover {
+    user-select: none;
     cursor: pointer;
     opacity: 0.75;
 }
@@ -45,6 +46,7 @@ html, body {
 .click-event:active {
     transform: translateY(2px);
     transition: transform 0.1s;
+    user-select: none;
 }
 
 button{
@@ -87,7 +89,7 @@ button.ghost{
 
 .header-content-container span:nth-child(1){
     font-weight: bold;
-    color: rgb(218, 165, 32);
+    color: goldenrod;
     font-size: 25px;
 }
 
@@ -102,7 +104,7 @@ a {
 }
 
 a:hover {
-    color: gold;
+    color: goldenrod;
 }
 
 .nav-container{
