@@ -76,6 +76,10 @@ button.ghost{
     color: wheat;
 }
 
+button.fill-container{
+    width: 100%;
+}
+
 .header-logo {
     border-radius: 50%;
     height: 65px;
@@ -111,3 +115,134 @@ a:hover {
     display: flex;
     gap: 20px;
 }
+
+.section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    user-select: none;
+    font-size: 34px;
+    color: black;
+}
+
+.section-container{
+    background-image: linear-gradient(90.45deg, black 0%, goldenrod 100% );
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    display: flex;
+    padding: 40px;
+    height: 90%;
+    width: 100%;
+    gap: 20px;
+}
+
+.section-content-container{
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    user-select: none;
+    max-width: 810px;
+    display: flex;
+    gap: 20px;
+}
+
+.section-content-container p{
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+    .section-container{
+        height: "auto";
+    }
+    .section-content-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.text-input-container{
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.text-input-container label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.text-input-container input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.text-input-container input:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+.multi-text-input-container{
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.multi-text-input-container label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.multi-text-input-container textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    min-height: 175px;
+    resize: vertical;
+    font-size: 18px;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.multi-text-input-container textarea:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+.footer-container{
+    background-image: linear-gradient(90.45deg, black 0%, goldenrod 100% );
+    justify-content: space-between;
+    border-top: solid black 2px;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    user-select: none;
+    display: flex;
+    width: 100%;
+}
+
+.footer-logo {
+    border-radius: 50%;
+    height: 100px; 
+    width: 100px; 
+}
+    

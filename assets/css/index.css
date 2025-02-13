@@ -42,7 +42,7 @@
 }
 
 .team-members-banner-container{
-    background-image: linear-gradient(90.45deg, goldenrod 0%, black 100% );
+    background-image: linear-gradient(90.45deg, black 0%, goldenrod 100% );
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     align-items: center;
@@ -53,3 +53,95 @@
     display: flex;
     gap: 10px;
 }
+
+.section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    user-select: none;
+    font-size: 34px;
+    color: black;
+}
+
+.section-container{
+    background-image: linear-gradient(90.45deg, black 0%, goldenrod 100% );
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    display: flex;
+    padding: 40px;
+    height: 90%;
+    width: 100%;
+    gap: 20px;
+}
+
+.section-content-container{
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    user-select: none;
+    max-width: 810px;
+    display: flex;
+    gap: 20px;
+}
+
+.section-content-container p{
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+    .section-container{
+        height: "auto";
+    }
+    .section-content-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.ef-logo{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.ceo-component-container{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.ceo-profile-photo{
+    border: solid goldenrod 3px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.ceo-content-container{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 3px;
+}
+
+.ceo-content-container span:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.ceo-content-container span:nth-child(2) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(218, 165, 32)
+}
+
+    
+
+
